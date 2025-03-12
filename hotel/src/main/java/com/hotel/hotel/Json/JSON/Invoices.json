@@ -1,0 +1,7 @@
+{
+  "invoiceId": 1,
+  "invoiceNumber": "INV001",
+  "invoiceDate": "2024-05-05",
+  "invoiceAmount": 450,
+  "bookingId": 1
+}

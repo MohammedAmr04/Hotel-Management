@@ -1,0 +1,21 @@
+{
+  "bookingId": 1,
+  "bookingNumber": "B001",
+  "checkInDate": "2024-05-01",
+  "checkOutDate": "2024-05-05",
+  "customerId": 1,
+  "roomsReserved": [
+    {
+      "roomId": 1,
+      "roomNumber": "101",
+      "roomType": "Standard",
+      "pricePerNight": 100
+    },
+    {
+      "roomId": 2,
+      "roomNumber": "102",
+      "roomType": "Deluxe",
+      "pricePerNight": 150
+    }
+  ]
+}

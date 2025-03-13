@@ -534,20 +534,20 @@ You can test the APIs using tools like Postman or curl. Example curl commands:
 
 ```bash
 # Create a new user
-curl -X POST http://localhost:8080/users/ \
+curl -X POST http://localhost:9000/users/ \
   -H "Content-Type: application/json" \
   -d '{"firstName":"John","lastName":"Doe","email":"john@example.com","password":"Pass123!"}'
 
 # Create a new booking
-curl -X POST http://localhost:8080/bookings/ \
+curl -X POST http://localhost:9000/bookings/ \
   -H "Content-Type: application/json" \
   -d '{"bookingNumber":"BK001","checkInDate":"2024-03-20","checkOutDate":"2024-03-25","room":{"id":1},"user":{"id":1}}'
 
 # Get all rooms
-curl http://localhost:8080/rooms/
+curl http://localhost:9000/rooms/
 
 # Create an invoice
-curl -X POST http://localhost:8080/invoices/ \
+curl -X POST http://localhost:9000/invoices/ \
   -H "Content-Type: application/json" \
   -d '{"booking":{"id":1},"user":{"id":1},"totalAmount":500.0}'
 ```
